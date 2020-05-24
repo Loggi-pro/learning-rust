@@ -1,11 +1,7 @@
-#[test]
-fn funny_name() {
-    assert_eq!(1, 1);
-}
+mod test; //add test.rs
+          //also add #[path = "foo.rs"] before to import file at path
+          //also can import a directory
 
-#[test]
-fn funny_name2() {
-    assert_eq!(2, 34);
+pub fn main() {
+    let _x = test::other_function();
 }
-
-pub fn main() {}
