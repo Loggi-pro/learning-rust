@@ -6,3 +6,4 @@
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod data_types_tuples;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod functions;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod control_flow_if;
+#[cfg_attr(rustfmt, rustfmt_skip)] pub mod control_flow_loop;
