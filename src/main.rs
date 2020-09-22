@@ -1,4 +1,5 @@
 mod rust_book;
+
 fn main() {
-    rust_book::variables_shadowing::run();
+    rust_book::data_types_simple::run();
 }
