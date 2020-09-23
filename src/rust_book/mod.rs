@@ -7,3 +7,4 @@
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod functions;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod control_flow_if;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod control_flow_loop;
+#[cfg_attr(rustfmt, rustfmt_skip)] pub mod ownership;
