@@ -1,5 +1,5 @@
 mod rust_book;
 
 fn main() {
-    rust_book::slice_type::run();
+    rust_book::struct_type::run();
 }
