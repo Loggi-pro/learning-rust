@@ -1,5 +1,5 @@
 mod rust_book;
 
 fn main() {
-    rust_book::enum_type::run();
+    rust_book::if_let::run();
 }
