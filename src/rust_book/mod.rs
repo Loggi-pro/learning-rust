@@ -13,3 +13,4 @@
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod struct_type;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod enum_type;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod if_let;
+#[cfg_attr(rustfmt, rustfmt_skip)] pub mod restaurant;
