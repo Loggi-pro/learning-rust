@@ -15,3 +15,4 @@
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod if_let;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod restaurant;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod vector;
+#[cfg_attr(rustfmt, rustfmt_skip)] pub mod string;
