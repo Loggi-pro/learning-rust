@@ -16,3 +16,4 @@
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod restaurant;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod vector;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod string;
+#[cfg_attr(rustfmt, rustfmt_skip)] pub mod hash_map;

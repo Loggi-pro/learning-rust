@@ -1,5 +1,5 @@
 mod rust_book;
 
 fn main() {
-    rust_book::string::run();
+    rust_book::hash_map::run();
 }
