@@ -46,7 +46,7 @@ pub fn run() {
         reply: false,
         retweet: false,
     };
-    println!("1 new tweet: {}", tweet.summarize());
+    notify(&tweet);
     //
     println!("Call summary method for NewsArticle");
     let article = NewsArticle {
@@ -58,5 +58,26 @@ pub fn run() {
              hockey team in the NHL.",
         ),
     };
-    println!("New article available! {}", article.summarize());
+    notify(&article);
+    //
+    println!("Return type which implements a trait from function:");
+    notify(&returns_summarizable());
+}
+//constraints
+fn notify<T: Summary>(item: &T) {
+    //or fn notify(item: &impl Summary)
+    println!("New article available! {}", item.summarize());
+}
+
+//return trait
+fn returns_summarizable() -> impl Summary {
+    NewsArticle {
+        headline: String::from("Penguins win the Stanley Cup Championship!"),
+        location: String::from("Pittsburgh, PA, USA"),
+        author: String::from("Iceburgh"),
+        content: String::from(
+            "The Pittsburgh Penguins once again are the best \
+                 hockey team in the NHL.",
+        ),
+    }
 }
