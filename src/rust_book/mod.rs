@@ -18,3 +18,4 @@
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod string;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod hash_map;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod error_handling;
+#[cfg_attr(rustfmt, rustfmt_skip)] pub mod generics;
