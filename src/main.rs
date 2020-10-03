@@ -1,5 +1,5 @@
 mod rust_book;
 
 fn main() {
-    rust_book::generics::run();
+    rust_book::traits::run();
 }
