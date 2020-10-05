@@ -49,6 +49,28 @@
 			"args": ["run"],
 			"problemMatcher": ["$rustc"],
 			"label": "rust: cargo run"
+		},
+		{
+			"type": "process",
+			"command": "cargo",
+			"args": ["test", "--test", "integration_test"],
+			"problemMatcher": ["$rustc"],
+			"label": "rust: cargo test integration_test",
+			"presentation": {
+				"clear": true,
+				"showReuseMessage": false
+			}
+		},
+		{
+			"type": "process",
+			"command": "cargo",
+			"args": ["test"],
+			"problemMatcher": ["$rustc"],
+			"label": "rust: cargo test",
+			"presentation": {
+				"clear": true,
+				"showReuseMessage": false
+			}
 		}
 	]
 }
