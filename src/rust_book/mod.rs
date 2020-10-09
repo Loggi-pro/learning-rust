@@ -22,3 +22,4 @@
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod traits;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod lifetime;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod tests;
+#[cfg_attr(rustfmt, rustfmt_skip)] pub mod minigrep;
