@@ -25,3 +25,4 @@
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod minigrep;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod closures;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod iterator;
+#[cfg_attr(rustfmt, rustfmt_skip)] pub mod art;
