@@ -12,3 +12,10 @@ rand="0.5.5"
 
 [lib]
 name = "rust_program"
+
+
+[profile.dev]
+opt-level =0
+
+[profile.release]
+opt-level = 3
