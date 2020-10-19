@@ -30,4 +30,5 @@
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod smart_pointer;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod reference_counter;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod refcell;
+#[cfg_attr(rustfmt, rustfmt_skip)] pub mod reference_cycle;
 
