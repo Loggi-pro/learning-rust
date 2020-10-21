@@ -31,4 +31,4 @@
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod reference_counter;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod refcell;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod reference_cycle;
-
+#[cfg_attr(rustfmt, rustfmt_skip)] pub mod concurrency;

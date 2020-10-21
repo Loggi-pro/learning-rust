@@ -1,5 +1,5 @@
 mod rust_book;
 //crate for binary
 fn main() {
-    rust_book::reference_cycle::run();
+    rust_book::concurrency::run();
 }
