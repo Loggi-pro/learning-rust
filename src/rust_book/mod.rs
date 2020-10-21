@@ -35,3 +35,4 @@
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod concurrency_channel;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod concurrency_mutex;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod oop_encapsulation;
+#[cfg_attr(rustfmt, rustfmt_skip)] pub mod oop_inheritance;
