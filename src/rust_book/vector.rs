@@ -35,6 +35,12 @@ pub fn run() {
         SpreasheetCell::Float(10.12),
     ];
     println!("{:?}", row);
+    //
+    println!("Iterate with index:");
+    let v = vec!['a','b','c'];
+    for (index,value) in v.iter().enumerate(){
+        println!("{} is at index {}",value,index);
+    }
 }
 
 #[derive(Debug)]
