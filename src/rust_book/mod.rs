@@ -40,3 +40,4 @@
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod pattern_matching_let;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod pattern_matching_function;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod pattern_matching_destructuring;
+#[cfg_attr(rustfmt, rustfmt_skip)] pub mod pattern_matching_syntax;
