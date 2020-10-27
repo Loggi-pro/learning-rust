@@ -36,7 +36,9 @@ pub fn run() {
         println!("COUNTER: {}", COUNTER);
     }
     println!("4. Implement an unsafe trait:");
+    println!("  trait is unsafe when at least one of its methods has some invariant that the compiler can’t verify.");
     println!("5. Access fields of unions:");
+    println!("  accessing union fields is unsafe because Rust can’t guarantee the type of the data currently being stored in the union instance.");
 }
 
 
@@ -69,3 +71,10 @@ fn add_to_count(inc:u32){
     }
 }
 
+unsafe trait Foo {
+    // methods go here
+}
+
+unsafe impl Foo for i32 {
+    // method implementations go here
+}
