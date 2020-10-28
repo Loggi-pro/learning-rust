@@ -44,3 +44,4 @@
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod r#unsafe;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod advanced_traits;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod advanced_types;
+#[cfg_attr(rustfmt, rustfmt_skip)] pub mod advanced_functions;
