@@ -42,3 +42,4 @@
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod pattern_matching_destructuring;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod pattern_matching_syntax;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod r#unsafe;
+#[cfg_attr(rustfmt, rustfmt_skip)] pub mod advanced_traits;
