@@ -45,3 +45,4 @@
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod advanced_traits;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod advanced_types;
 #[cfg_attr(rustfmt, rustfmt_skip)] pub mod advanced_functions;
+#[cfg_attr(rustfmt, rustfmt_skip)] pub mod macros;

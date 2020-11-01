@@ -1,5 +1,5 @@
 mod rust_book;
 //crate for binary
 fn main() {
-    rust_book::advanced_functions::run();
+    rust_book::macros::run();
 }
