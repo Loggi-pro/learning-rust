@@ -1,0 +1,8 @@
+{
+  "mcu": "stm32f303vct6",
+  "svd_file": "${workspaceRoot}/STM32F303.svd",
+  "flash_size": 256000,
+  "ram_size": 40000,
+  "exec_basepath": "${workspaceRoot}/target/thumbv7em-none-eabihf",
+  "cmake.configureOnOpen": false,
+}
