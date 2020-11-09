@@ -3,6 +3,7 @@ members = [
     "src/led-roulette",
     "src/hello-world",
     "src/registers",
+    "src/registers-unsafe-read",
 ]
 [profile.release]
 codegen-units = 1
