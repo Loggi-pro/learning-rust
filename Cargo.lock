@@ -251,6 +251,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "registers-read"
+version = "0.1.0"
+dependencies = [
+ "cortex-m 0.6.4",
+ "cortex-m-rt",
+ "f3",
+ "panic-itm",
+]
+
+[[package]]
 name = "registers-unsafe-read"
 version = "0.1.0"
 dependencies = [
