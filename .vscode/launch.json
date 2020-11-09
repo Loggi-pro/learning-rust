@@ -49,7 +49,7 @@
       "id": "projectName",
       "type": "pickString",
       "description": "What project to run?",
-      "options":["led-roulette","hello-world"]
+      "options":["led-roulette","hello-world","registers"]
       // type specific configuration attributes
     }
   ]

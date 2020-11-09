@@ -2,6 +2,7 @@
 members = [
     "src/led-roulette",
     "src/hello-world",
+    "src/registers",
 ]
 [profile.release]
 codegen-units = 1

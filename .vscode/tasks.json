@@ -154,7 +154,7 @@
       "id": "projectName",
       "type": "pickString",
       "description": "What project to build?",
-      "options":["led-roulette","hello-world"]
+      "options":["led-roulette","hello-world","registers"]
       // type specific configuration attributes
     }
   ]

@@ -1,0 +1,1 @@
+cargo objdump --bin registers --release -- -d -no-show-raw-insn -print-imm-hex -source > src/registers/registers.disasm.txt
