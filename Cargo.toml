@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "src/led-roulette",
+    "src/hello-world",
 ]
 [profile.release]
 codegen-units = 1
