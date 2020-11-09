@@ -12,7 +12,7 @@
       "name": "Debug (QEMU)",
       "servertype": "qemu",
       "cwd": "${workspaceRoot}",
-      "preLaunchTask": "cargo build",
+      "preLaunchTask": "cargo _build",
       "runToMain": true,
       "executable": "${config:exec_basepath}/debug/${input:projectName}",
       /* Run `cargo build --example hello` and uncomment this line to run semi-hosting example */
