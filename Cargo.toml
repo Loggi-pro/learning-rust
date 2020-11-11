@@ -6,6 +6,7 @@ members = [
     "src/registers-unsafe-read",
     "src/registers-read",
     "src/registers-safe-manip",
+    "src/registers-hal",
 ]
 [profile.release]
 codegen-units = 1

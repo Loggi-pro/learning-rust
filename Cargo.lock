@@ -251,6 +251,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "registers-hal"
+version = "0.1.0"
+dependencies = [
+ "cortex-m 0.6.4",
+ "cortex-m-rt",
+ "panic-halt",
+ "stm32f3xx-hal",
+]
+
+[[package]]
 name = "registers-read"
 version = "0.1.0"
 dependencies = [
@@ -311,6 +321,29 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "dba1a27d3efae4351c8051072d619e3ade2820635c3958d826bfea39d59b54c8"
 
 [[package]]
+name = "stm32-usbd"
+version = "0.5.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "70d13eca735cae37df697f599777b000cc0ee924df8452f2b4bfaa6798ab0338"
+dependencies = [
+ "cortex-m 0.6.4",
+ "usb-device",
+ "vcell",
+]
+
+[[package]]
+name = "stm32f3"
+version = "0.11.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2bcd49e908348f01acdc7ee1e0e1f8b9b709f99248749f6f79dcd88dc95ff6b2"
+dependencies = [
+ "bare-metal",
+ "cortex-m 0.6.4",
+ "cortex-m-rt",
+ "vcell",
+]
+
+[[package]]
 name = "stm32f30x"
 version = "0.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -337,6 +370,24 @@ dependencies = [
 ]
 
 [[package]]
+name = "stm32f3xx-hal"
+version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "688d62765056dd2fc0468198bd5d640b4aaa3dc4dfc6374018d61dc2b1a8410d"
+dependencies = [
+ "bare-metal",
+ "cast",
+ "cortex-m 0.6.4",
+ "cortex-m-rt",
+ "embedded-hal",
+ "nb",
+ "stable_deref_trait",
+ "stm32-usbd",
+ "stm32f3",
+ "void",
+]
+
+[[package]]
 name = "syn"
 version = "1.0.33"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -358,6 +409,12 @@ name = "unicode-xid"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f7fe0bb3479651439c9112f72b6c505038574c9fbb575ed1bf3b797fa39dd564"
+
+[[package]]
+name = "usb-device"
+version = "0.2.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "849eed9b4dc61a1f17ba1d7a5078ceb095b9410caa38a506eb281ed5eff12fbd"
 
 [[package]]
 name = "vcell"
