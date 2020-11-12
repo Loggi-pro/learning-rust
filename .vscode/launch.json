@@ -50,7 +50,7 @@
       "type": "pickString",
       "description": "What project to run?",
       "options":[ "led-roulette","hello-world","registers","registers-unsafe-read","registers-read",
-                  "registers-safe-manip","registers-hal"]
+                  "registers-safe-manip","registers-hal","clocks-timers"]
       // type specific configuration attributes
     }
   ]
