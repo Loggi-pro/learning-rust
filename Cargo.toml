@@ -8,6 +8,7 @@ members = [
     "src/registers-safe-manip",
     "src/registers-hal",
     "src/clocks-timers",
+    "src/usart",
 ]
 [profile.release]
 codegen-units = 1
